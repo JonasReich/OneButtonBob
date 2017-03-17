@@ -25,6 +25,9 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_consolas</font>
+  </fonts>
   <objects name="objects">
     <objects name="bobs">
       <object>objects\bob</object>
@@ -44,6 +47,7 @@
     <objects name="ui">
       <object>objects\start_button</object>
       <object>objects\victory</object>
+      <object>objects\clickCounter</object>
     </objects>
   </objects>
   <rooms name="rooms">
