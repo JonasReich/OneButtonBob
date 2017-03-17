@@ -5,11 +5,51 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="environment">
+      <sprite>sprites\s_ground</sprite>
+    </sprites>
+    <sprites name="bob">
+      <sprite>sprites\s_bob</sprite>
+      <sprite>sprites\s_boomerang_bob</sprite>
+    </sprites>
+    <sprites name="enemies">
+      <sprite>sprites\s_bat</sprite>
+    </sprites>
+    <sprites name="ui">
+      <sprite>sprites\s_victory</sprite>
+      <sprite>sprites\s_start_button</sprite>
+    </sprites>
+    <sprite>sprites\s_boomerang</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <objects name="bobs">
+      <object>objects\bob</object>
+      <object>objects\dying_bob</object>
+      <object>objects\boomerang_bob</object>
+    </objects>
+    <objects name="items">
+      <object>objects\boomerang</object>
+    </objects>
+    <objects name="enemies">
+      <object>objects\enemy</object>
+      <object>objects\bat</object>
+    </objects>
+    <objects name="environment">
+      <object>objects\ground</object>
+    </objects>
+    <objects name="ui">
+      <object>objects\start_button</object>
+      <object>objects\victory</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\menu</room>
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_level01</room>
+    <room>rooms\rm_victory</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
