@@ -10,6 +10,7 @@
       <sprite>sprites\s_ground</sprite>
       <sprite>sprites\s_upper_ladder</sprite>
       <sprite>sprites\s_lower_ladder</sprite>
+      <sprite>sprites\s_moving_platform</sprite>
     </sprites>
     <sprites name="bob">
       <sprite>sprites\s_walking_bob</sprite>
@@ -31,7 +32,9 @@
     </sprites>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_level05</path>
+  </paths>
   <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_consolas</font>
@@ -55,6 +58,9 @@
     </objects>
     <objects name="environment">
       <object>objects\ground</object>
+      <objects name="moving_platforms">
+        <object>objects\moving_platform_level05</object>
+      </objects>
       <object>objects\upper_ladder</object>
       <object>objects\lower_ladder</object>
     </objects>

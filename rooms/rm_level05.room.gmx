@@ -53,11 +53,12 @@
   <instances>
     <instance objName="ground" x="0" y="88" name="inst_36E4FB4E" locked="0" code="" scaleX="3.5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="walking_bob" x="8" y="80" name="inst_F0698D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ground" x="104" y="88" name="inst_D71F6AAE" locked="0" code="" scaleX="3.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ground" x="104" y="88" name="inst_D71F6AAE" locked="0" code="" scaleX="5.33333349227905" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="56" y="112" name="inst_789554E9" locked="0" code="" scaleX="3.20000004768372" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="64" y="112" name="inst_E83ADD4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="80" y="112" name="inst_1DA3782E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="96" y="112" name="inst_185D383A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="moving_platform_level05" x="64" y="88" name="inst_8C4214AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
