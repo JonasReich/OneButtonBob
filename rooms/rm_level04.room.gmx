@@ -53,8 +53,14 @@
   <instances>
     <instance objName="ground" x="0" y="88" name="inst_36E4FB4E" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="clickCounter" x="0" y="0" name="inst_731D89FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="jumping_bob" x="8" y="80" name="inst_38601BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ground_trap" x="80" y="88" name="inst_E34AECC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ground" x="40" y="56" name="inst_AB0C793B" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ground_trap" x="64" y="88" name="inst_793AB7D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ground_trap" x="104" y="56" name="inst_058F9307" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="upper_ladder" x="48" y="56" name="inst_915ED564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="upper_ladder" x="88" y="56" name="inst_014670DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lower_ladder" x="48" y="88" name="inst_EB0F3C07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lower_ladder" x="88" y="88" name="inst_09BBE498" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_climbing_bob" x="8" y="80" name="inst_FD7729DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

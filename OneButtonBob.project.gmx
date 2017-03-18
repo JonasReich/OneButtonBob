@@ -8,6 +8,8 @@
   <sprites name="sprites">
     <sprites name="environment">
       <sprite>sprites\s_ground</sprite>
+      <sprite>sprites\s_upper_ladder</sprite>
+      <sprite>sprites\s_lower_ladder</sprite>
     </sprites>
     <sprites name="bob">
       <sprite>sprites\s_bob</sprite>
@@ -29,6 +31,7 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_consolas</font>
   </fonts>
@@ -39,6 +42,7 @@
       <object>objects\stopping_bob</object>
       <object>objects\jumping_bob</object>
       <object>objects\dying_bob</object>
+      <object>objects\ladder_climbing_bob</object>
     </objects>
     <objects name="items">
       <object>objects\boomerang</object>
@@ -49,6 +53,8 @@
     </objects>
     <objects name="environment">
       <object>objects\ground</object>
+      <object>objects\upper_ladder</object>
+      <object>objects\lower_ladder</object>
     </objects>
     <objects name="ui">
       <object>objects\start_button</object>
@@ -63,10 +69,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level03</room>
+    <room>rooms\rm_level04</room>
     <room>rooms\rm_victory</room>
     <room>rooms\rm_level01</room>
     <room>rooms\rm_level02</room>
+    <room>rooms\rm_level03</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
