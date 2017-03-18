@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="ground" x="0" y="88" name="inst_36E4FB4E" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="clickCounter" x="0" y="0" name="inst_731D89FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="jumping_bob" x="8" y="80" name="inst_38601BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="80" y="88" name="inst_E34AECC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

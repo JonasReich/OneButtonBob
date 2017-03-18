@@ -20,6 +20,7 @@
   <width>16</width>
   <height>16</height>
   <frames>
-    <frame index="0">images\s_bob_0.png</frame>
+    <frame index="0">images\s_walking_bob_0.png</frame>
+    <frame index="1">images\s_walking_bob_1.png</frame>
   </frames>
 </sprite>
