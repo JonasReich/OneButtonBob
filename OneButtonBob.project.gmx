@@ -9,6 +9,9 @@
     <sprites name="environment">
       <sprite>sprites\s_ground</sprite>
       <sprite>sprites\s_upper_ladder</sprite>
+      <sprite>sprites\s_birdview_ground</sprite>
+      <sprite>sprites\s_birdview_exit</sprite>
+      <sprite>sprites\s_birdview_trapdoor</sprite>
       <sprite>sprites\s_lower_ladder</sprite>
       <sprite>sprites\s_moving_platform</sprite>
     </sprites>
@@ -34,6 +37,7 @@
   <backgrounds name="background"/>
   <paths name="paths">
     <path>paths\path_level05</path>
+    <path>paths\path_level07</path>
   </paths>
   <scripts name="scripts"/>
   <fonts name="fonts">
@@ -48,6 +52,7 @@
       <object>objects\jumping_bob</object>
       <object>objects\dying_bob</object>
       <object>objects\ladder_climbing_bob</object>
+      <object>objects\birdview_bob</object>
     </objects>
     <objects name="items">
       <object>objects\boomerang</object>
@@ -63,6 +68,8 @@
       </objects>
       <object>objects\upper_ladder</object>
       <object>objects\lower_ladder</object>
+      <object>objects\birdview_ground</object>
+      <object>objects\bridview_exit</object>
     </objects>
     <objects name="ui">
       <object>objects\start_button</object>
@@ -72,6 +79,8 @@
     <objects name="traps">
       <object>objects\ground_trap</object>
       <object>objects\arrow_trap_trigger</object>
+      <object>objects\birdview_trapdoor</object>
+      <object>objects\birdview_trapdoor_opened</object>
       <object>objects\arrow_trap</object>
     </objects>
   </objects>
@@ -83,6 +92,7 @@
     <room>rooms\rm_level04</room>
     <room>rooms\rm_level05</room>
     <room>rooms\rm_level06_wip</room>
+    <room>rooms\rm_level07</room>
     <room>rooms\rm_victory</room>
   </rooms>
   <help>
