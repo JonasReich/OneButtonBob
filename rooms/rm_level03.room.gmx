@@ -54,8 +54,8 @@
     <instance objName="bob" x="8" y="88" name="inst_A005C1FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="0" y="88" name="inst_36E4FB4E" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="clickCounter" x="0" y="0" name="inst_731D89FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="jumping_bob" x="8" y="80" name="inst_38601BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ground_trap" x="63" y="83" name="inst_E34AECC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stopping_bob" x="8" y="80" name="inst_0DD8D3C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="arrow_trap_trigger" x="80" y="16" name="inst_44DA1782" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

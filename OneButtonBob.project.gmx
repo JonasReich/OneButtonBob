@@ -8,7 +8,6 @@
   <sprites name="sprites">
     <sprites name="environment">
       <sprite>sprites\s_ground</sprite>
-      <sprite>sprites\s_trap</sprite>
     </sprites>
     <sprites name="bob">
       <sprite>sprites\s_bob</sprite>
@@ -22,6 +21,11 @@
       <sprite>sprites\s_start_button</sprite>
     </sprites>
     <sprite>sprites\s_boomerang</sprite>
+    <sprites name="traps">
+      <sprite>sprites\s_arrow_trap_trigger</sprite>
+      <sprite>sprites\s_arrow_trap</sprite>
+      <sprite>sprites\s_ground_trap</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -32,6 +36,7 @@
     <objects name="bobs">
       <object>objects\bob</object>
       <object>objects\boomerang_bob</object>
+      <object>objects\stopping_bob</object>
       <object>objects\jumping_bob</object>
       <object>objects\dying_bob</object>
     </objects>
@@ -44,19 +49,24 @@
     </objects>
     <objects name="environment">
       <object>objects\ground</object>
-      <object>objects\trap</object>
     </objects>
     <objects name="ui">
       <object>objects\start_button</object>
       <object>objects\victory</object>
       <object>objects\clickCounter</object>
     </objects>
+    <objects name="traps">
+      <object>objects\ground_trap</object>
+      <object>objects\arrow_trap_trigger</object>
+      <object>objects\arrow_trap</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level02</room>
+    <room>rooms\rm_level03</room>
     <room>rooms\rm_victory</room>
     <room>rooms\rm_level01</room>
+    <room>rooms\rm_level02</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
