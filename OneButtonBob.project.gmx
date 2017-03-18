@@ -25,16 +25,15 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_consolas</font>
   </fonts>
   <objects name="objects">
     <objects name="bobs">
       <object>objects\bob</object>
-      <object>objects\dying_bob</object>
       <object>objects\boomerang_bob</object>
       <object>objects\jumping_bob</object>
+      <object>objects\dying_bob</object>
     </objects>
     <objects name="items">
       <object>objects\boomerang</object>
