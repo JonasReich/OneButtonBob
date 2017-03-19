@@ -58,9 +58,6 @@
     <instance objName="ground" x="72" y="88" name="inst_95C71D98" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="104" y="88" name="inst_1105FACC" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ground" x="136" y="88" name="inst_A312D9FA" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="32" y="120" name="inst_05C3A5B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="64" y="120" name="inst_413CEAA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="64" y="120" name="inst_6399549C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="96" y="120" name="inst_D9EEBD28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="64" y="120" name="inst_F183A02B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ground_trap" x="128" y="120" name="inst_8E2F786C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

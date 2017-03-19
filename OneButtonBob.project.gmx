@@ -40,7 +40,6 @@
     <path>paths\path_level05</path>
     <path>paths\path_level07</path>
   </paths>
-  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_consolas</font>
   </fonts>
