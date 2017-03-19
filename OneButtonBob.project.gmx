@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprites name="environment">
       <sprite>sprites\s_ground</sprite>
+      <sprite>sprites\s_ground_fragile</sprite>
       <sprite>sprites\s_upper_ladder</sprite>
       <sprite>sprites\s_birdview_ground</sprite>
       <sprite>sprites\s_birdview_exit</sprite>
@@ -49,6 +50,7 @@
       <object>objects\boomerang_bob</object>
       <object>objects\stopping_bob</object>
       <object>objects\walking_bob</object>
+      <object>objects\onestepatatime_bob</object>
       <object>objects\jumping_bob</object>
       <object>objects\dying_bob</object>
       <object>objects\ladder_climbing_bob</object>
@@ -62,6 +64,7 @@
       <object>objects\bat</object>
     </objects>
     <objects name="environment">
+      <object>objects\ground_fragile</object>
       <object>objects\ground</object>
       <objects name="moving_platforms">
         <object>objects\moving_platform_level05</object>
@@ -86,12 +89,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level08</room>
     <room>rooms\rm_level01</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
     <room>rooms\rm_level04</room>
     <room>rooms\rm_level05</room>
-    <room>rooms\rm_level06_wip</room>
+    <room>rooms\rm_level06</room>
     <room>rooms\rm_level07</room>
     <room>rooms\rm_victory</room>
   </rooms>
