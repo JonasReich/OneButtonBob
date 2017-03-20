@@ -7,6 +7,9 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="environment">
+      <sprites name="props">
+        <sprite>sprites\s_torch</sprite>
+      </sprites>
       <sprite>sprites\s_ground</sprite>
       <sprite>sprites\s_ground_fragile</sprite>
       <sprite>sprites\s_upper_ladder</sprite>
@@ -69,6 +72,9 @@
       <object>objects\spider_trigger</object>
     </objects>
     <objects name="environment">
+      <objects name="props">
+        <object>objects\torch</object>
+      </objects>
       <object>objects\ground_fragile</object>
       <object>objects\ground</object>
       <objects name="moving_platforms">
