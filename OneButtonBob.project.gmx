@@ -33,6 +33,7 @@
     <sprites name="ui">
       <sprite>sprites\s_victory</sprite>
       <sprite>sprites\s_start_button</sprite>
+      <sprite>sprites\s_menu_bar</sprite>
     </sprites>
     <sprite>sprites\s_boomerang</sprite>
     <sprites name="traps">
@@ -41,7 +42,11 @@
       <sprite>sprites\s_ground_trap</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_wall</background>
+    <background>background\bg_wall_crumbled</background>
+    <background>background\bg_ceiling</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\path_level05</path>
     <path>paths\path_level07</path>
