@@ -18,6 +18,7 @@
     </sprites>
     <sprites name="bob">
       <sprite>sprites\s_walking_bob</sprite>
+      <sprite>sprites\s_flappy_bob</sprite>
       <sprite>sprites\s_bob</sprite>
       <sprite>sprites\s_boomerang_bob</sprite>
     </sprites>
@@ -51,6 +52,7 @@
       <object>objects\walking_bob</object>
       <object>objects\onestepatatime_bob</object>
       <object>objects\jumping_bob</object>
+      <object>objects\flappy_bob</object>
       <object>objects\dying_bob</object>
       <object>objects\ladder_climbing_bob</object>
       <object>objects\birdview_bob</object>
@@ -88,7 +90,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level09</room>
     <room>rooms\rm_level01</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
@@ -97,6 +98,7 @@
     <room>rooms\rm_level06</room>
     <room>rooms\rm_level07</room>
     <room>rooms\rm_level08</room>
+    <room>rooms\rm_level09</room>
     <room>rooms\rm_victory</room>
   </rooms>
   <help>
