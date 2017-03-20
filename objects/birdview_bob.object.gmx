@@ -68,7 +68,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="bridview_exit">
+    <event eventtype="4" ename="birdview_exit">
       <action>
         <libid>1</libid>
         <id>222</id>

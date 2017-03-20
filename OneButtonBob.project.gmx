@@ -71,7 +71,7 @@
       <object>objects\upper_ladder</object>
       <object>objects\lower_ladder</object>
       <object>objects\birdview_ground</object>
-      <object>objects\bridview_exit</object>
+      <object>objects\birdview_exit</object>
     </objects>
     <objects name="ui">
       <object>objects\start_button</object>
@@ -88,6 +88,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level09</room>
     <room>rooms\rm_level01</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
