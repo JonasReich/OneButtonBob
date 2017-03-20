@@ -88,7 +88,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level08</room>
     <room>rooms\rm_level01</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
@@ -96,6 +95,7 @@
     <room>rooms\rm_level05</room>
     <room>rooms\rm_level06</room>
     <room>rooms\rm_level07</room>
+    <room>rooms\rm_level08</room>
     <room>rooms\rm_victory</room>
   </rooms>
   <help>
