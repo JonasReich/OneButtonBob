@@ -62,6 +62,7 @@
       <object>objects\walking_bob</object>
       <object>objects\onestepatatime_bob</object>
       <object>objects\jumping_bob</object>
+      <object>objects\frogjumping_bob</object>
       <object>objects\flappy_bob</object>
       <object>objects\dying_bob</object>
       <object>objects\ladder_climbing_bob</object>
@@ -105,13 +106,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level07</room>
     <room>rooms\rm_level01</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
     <room>rooms\rm_level04</room>
     <room>rooms\rm_level05</room>
     <room>rooms\rm_level06</room>
-    <room>rooms\rm_level07</room>
     <room>rooms\rm_level08</room>
     <room>rooms\rm_level09</room>
     <room>rooms\rm_level10</room>
