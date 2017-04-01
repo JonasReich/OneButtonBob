@@ -9,6 +9,7 @@
     <sprites name="environment">
       <sprites name="props">
         <sprite>sprites\s_torch</sprite>
+        <sprite>sprites\s_victory_treasure</sprite>
       </sprites>
       <sprite>sprites\s_ground</sprite>
       <sprite>sprites\s_ground_fragile</sprite>
@@ -23,6 +24,7 @@
       <sprite>sprites\s_walking_bob</sprite>
       <sprite>sprites\s_flappy_bob</sprite>
       <sprite>sprites\s_bob</sprite>
+      <sprite>sprites\s_victory_bob</sprite>
       <sprite>sprites\s_boomerang_bob</sprite>
     </sprites>
     <sprites name="enemies">
@@ -32,8 +34,8 @@
       <sprite>sprites\s_boss</sprite>
     </sprites>
     <sprites name="ui">
-      <sprite>sprites\s_victory</sprite>
       <sprite>sprites\s_start_button</sprite>
+      <sprite>sprites\s_restart_button</sprite>
       <sprite>sprites\s_menu_bar</sprite>
     </sprites>
     <sprite>sprites\s_boomerang</sprite>
@@ -71,6 +73,7 @@
       <object>objects\dying_bob</object>
       <object>objects\ladder_climbing_bob</object>
       <object>objects\birdview_bob</object>
+      <object>objects\victory_bob</object>
     </objects>
     <objects name="items">
       <object>objects\boomerang</object>
@@ -96,10 +99,11 @@
       <object>objects\lower_ladder</object>
       <object>objects\birdview_ground</object>
       <object>objects\birdview_exit</object>
+      <object>objects\victory_treasure</object>
     </objects>
     <objects name="ui">
       <object>objects\start_button</object>
-      <object>objects\victory</object>
+      <object>objects\restart_button</object>
       <object>objects\clickCounter</object>
     </objects>
     <objects name="traps">
@@ -115,6 +119,7 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level01</room>
+    <room>rooms\rm_victory</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
     <room>rooms\rm_level04</room>
@@ -125,7 +130,6 @@
     <room>rooms\rm_level09</room>
     <room>rooms\rm_level10</room>
     <room>rooms\rm_level_boss</room>
-    <room>rooms\rm_victory</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
