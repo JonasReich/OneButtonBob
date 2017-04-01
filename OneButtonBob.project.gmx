@@ -49,6 +49,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_wall</background>
+    <background>background\bg_splash</background>
     <background>background\bg_wall_crumbled</background>
     <background>background\bg_ceiling</background>
   </backgrounds>
@@ -119,7 +120,6 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level01</room>
-    <room>rooms\rm_victory</room>
     <room>rooms\rm_level02</room>
     <room>rooms\rm_level03</room>
     <room>rooms\rm_level04</room>
@@ -130,6 +130,7 @@
     <room>rooms\rm_level09</room>
     <room>rooms\rm_level10</room>
     <room>rooms\rm_level_boss</room>
+    <room>rooms\rm_victory</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
