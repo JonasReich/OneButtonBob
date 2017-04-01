@@ -29,6 +29,7 @@
       <sprite>sprites\s_bat</sprite>
       <sprite>sprites\s_spider</sprite>
       <sprite>sprites\s_spiderTrigger</sprite>
+      <sprite>sprites\s_boss</sprite>
     </sprites>
     <sprites name="ui">
       <sprite>sprites\s_victory</sprite>
@@ -38,7 +39,9 @@
     <sprite>sprites\s_boomerang</sprite>
     <sprites name="traps">
       <sprite>sprites\s_arrow_trap_trigger</sprite>
+      <sprite>sprites\s_rock_trap_trigger</sprite>
       <sprite>sprites\s_arrow_trap</sprite>
+      <sprite>sprites\s_rock_trap</sprite>
       <sprite>sprites\s_ground_trap</sprite>
     </sprites>
   </sprites>
@@ -58,6 +61,7 @@
     <objects name="bobs">
       <object>objects\bob</object>
       <object>objects\boomerang_bob</object>
+      <object>objects\bosskiller_bob</object>
       <object>objects\stopping_bob</object>
       <object>objects\walking_bob</object>
       <object>objects\onestepatatime_bob</object>
@@ -70,12 +74,14 @@
     </objects>
     <objects name="items">
       <object>objects\boomerang</object>
+      <object>objects\boss_boomerang</object>
     </objects>
     <objects name="enemies">
       <object>objects\enemy</object>
       <object>objects\bat</object>
       <object>objects\spider</object>
       <object>objects\spider_trigger</object>
+      <object>objects\boss</object>
     </objects>
     <objects name="environment">
       <objects name="props">
@@ -102,6 +108,8 @@
       <object>objects\birdview_trapdoor</object>
       <object>objects\birdview_trapdoor_opened</object>
       <object>objects\arrow_trap</object>
+      <object>objects\rock_trap</object>
+      <object>objects\rock_trap_trigger</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -116,6 +124,7 @@
     <room>rooms\rm_level08</room>
     <room>rooms\rm_level09</room>
     <room>rooms\rm_level10</room>
+    <room>rooms\rm_level_boss</room>
     <room>rooms\rm_victory</room>
   </rooms>
   <help>
